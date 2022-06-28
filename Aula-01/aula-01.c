@@ -10,7 +10,7 @@
 # Sobre o programa
 #
 # Versão      : 0.1  -  23/06/2022
-# Sobre       : Aula 03 - Comentário no Código
+# Sobre       : Aula 01 - Hello World
 # License     : Treinamento
 #------------------------------------------------------------------*/
 #include <stdio.h>

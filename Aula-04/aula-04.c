@@ -9,29 +9,17 @@
 #------------------------------------------------------------------
 # Sobre o programa
 #
-# Versão      : 0.1  -  23/06/2022
-# Sobre       : Aula 02 - Comentário no Código
+# Versão      : 0.1     -  28/06/2022
+# Sobre       : Aula 04 - Abordagem do tipo inteiro e a quantidade de espaço que consome
 # License     : Treinamento
 #------------------------------------------------------------------*/
 
+
 #include <stdio.h>
+//#include <conio.h>
 
 int main (void){
 
-	// Este é um comentário de uma linha
-
-	/*
-	
-	Este 
-	é 
-	um 
-	comentário
-	De múltiplas
-	Linhas
-
-	*/
-	
 	printf("Haro, navy! \n");
 	return 0;
-	
 }
