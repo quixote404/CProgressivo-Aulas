@@ -16,10 +16,30 @@
 
 
 #include <stdio.h>
-//#include <conio.h>
+
+/* 
+Esta função serve para limpar a tela de terminais que possuam compatibilidade com ASCII
+Podendo não funcionar em máquinas Windows / MacOS
+*/
+
+int limpa_tela(void){
+
+	printf("\e[1;1H\e[2J");
+}
 
 int main (void){
 
-	printf("Haro, navy! \n");
+	limpa_tela();
+	printf ("| --- Tipo ---    | --- Bytes --- | \n");
+	printf ("|                                 | \n");
+	printf ("|     Char        |  %d bytes:     |  \n", sizeof(char));
+	printf ("|     Int         |  %d bytes:     | \n",  sizeof(int));
+	printf ("|     Float       |  %d bytes:     | \n",  sizeof(float));
+	printf ("|     Short       |  %d bytes:     | \n",  sizeof(short));
+	printf ("|     Long        |  %d bytes:     | \n",  sizeof(long));
+	printf ("|     Double      |  %d bytes:     | \n",  sizeof(double));
+	printf ("|     Long Double |  %d bytes:    |\n",    sizeof(long double));
+	printf ("|---------------------------------| \n");
 	return 0;
+
 }
